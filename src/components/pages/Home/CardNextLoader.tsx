@@ -1,0 +1,1 @@
+import React, { VFC } from 'react';const CardNextLoader: VFC = () => (  <div className="flex justify-center items-center card-loader-container">    <div className="lds-ellipsis">      <div/>      <div/>      <div/>      <div/>    </div>  </div>);export default CardNextLoader;

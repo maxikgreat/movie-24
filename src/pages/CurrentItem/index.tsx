@@ -1,0 +1,1 @@
+import React, { VFC } from 'react';const CurrentItem: VFC = () => {  return (    <div>      <h1>nother page</h1>    </div>  );};export default CurrentItem;
