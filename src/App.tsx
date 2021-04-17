@@ -7,7 +7,7 @@ function App () {
   return (
     <>
       <Header />
-      <main style={{ height: 2000 }}>
+      <main>
         <Switch>
           {
             routes.map(route => (

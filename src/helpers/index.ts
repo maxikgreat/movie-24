@@ -1,1 +1,1 @@
-import { categories as storeCategories } from '@store/atoms';export const renameCategoryName = (category: typeof storeCategories[number]): string => {  switch (category) {  case 'tv':    return 'Popular TV\'s';  default:    return '';  }};
+import { categories as storeCategories } from '@store/atoms';export const renameCategoryName = (category: typeof storeCategories[number]): string => {  switch (category) {  // case 'movie':  //   return 'Popular movies';  case 'tv':    return 'Popular TV\'s';  default:    return '';  }};
