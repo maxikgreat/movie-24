@@ -1,0 +1,1 @@
+import React, { VFC } from 'react';const CurrentItemDetails: VFC = () => {  return (    <div>    </div>  );};export default CurrentItemDetails;
