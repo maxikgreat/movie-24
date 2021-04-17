@@ -3,8 +3,36 @@
 @tailwind utilities;
 
 @import url('https://fonts.googleapis.com/css2?family=Mukta&display=swap');
+@import '~slick-carousel/slick/slick.css';
 
 * {
     margin: 0;
     font-family: 'Mukta', sans-serif;
 }
+
+/* Slider overrides */
+
+body {
+    overflow-x: hidden;
+}
+
+.slick-prev, .slick-next {
+    z-index: 100;
+    position: absolute;
+    top: 50%;
+    margin: 0 5px 0 5px;
+    transform: translateY(-50%);
+    cursor: pointer;
+}
+
+.slick-prev > svg, .slick-next > svg {
+    /*color: red;*/
+}
+
+.slick-prev {
+    left: 0;
+}
+.slick-next {
+    right: 0;
+}
+

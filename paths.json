@@ -1,1 +1,1 @@
-{  "compilerOptions": {    "baseUrl": "./",    "paths": {      "@components/*": ["src/components/*"],      "@pages/*": ["src/pages/*"],      "@store/*": ["src/store/*"]    }  }}
+{  "compilerOptions": {    "baseUrl": "./",    "paths": {      "@components/*": ["src/components/*"],      "@pages/*": ["src/pages/*"],      "@store/*": ["src/store/*"],      "@configs/*": ["src/configs/*"]    }  }}

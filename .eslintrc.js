@@ -43,6 +43,7 @@ module.exports = {
   rules: {
     indent: ['error', 2],
     semi: ['error', 'always'],
-    'eol-last': 'off'
+    'eol-last': 'off',
+    'react/prop-types': 'off'
   }
 };

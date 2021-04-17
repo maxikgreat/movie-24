@@ -1,1 +1,1 @@
-export { default as MoviesCarousel } from './MoviesCarousel';
+export { default as MoviesCarousel } from './MoviesCarousel';export { default as MovieCard } from './MovieCard';
