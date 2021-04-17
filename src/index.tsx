@@ -4,7 +4,6 @@ import { BrowserRouter } from 'react-router-dom';
 import { RecoilRoot } from 'recoil';
 
 import './index.css';
-import '@brainhubeu/react-carousel/lib/style.css';
 import App from './App';
 
 ReactDOM.render(
