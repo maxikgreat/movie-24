@@ -44,6 +44,12 @@ module.exports = {
     indent: ['error', 2],
     semi: ['error', 'always'],
     'eol-last': 'off',
-    'react/prop-types': 'off'
+    'react/prop-types': 'off',
+    '@typescript-eslint/semi': 'error',
+    'no-unused-vars': ['error', {
+      varsIgnorePattern: '^_',
+      argsIgnorePattern: '^_'
+    }],
+    camelcase: 'off'
   }
 };

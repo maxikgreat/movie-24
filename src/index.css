@@ -10,6 +10,16 @@
     font-family: 'Mukta', sans-serif;
 }
 
+/* Movie card */
+
+.movie-card {
+    height: 420px;
+}
+
+.movie-card > div {
+    height: 100%;
+}
+
 /* Slider overrides */
 
 body {
