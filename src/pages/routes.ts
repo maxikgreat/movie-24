@@ -1,0 +1,1 @@
+import { ComponentType } from 'react';import Home from '@pages/Home';interface Route {  name: string,  component: ComponentType,  path: string,  exact: boolean,};const routes: Route[] = [  {    name: 'Home',    component: Home,    path: '/',    exact: true  }];export default routes;

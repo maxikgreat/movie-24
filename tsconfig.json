@@ -18,14 +18,9 @@
     "resolveJsonModule": true,
     "isolatedModules": true,
     "noEmit": true,
-    "jsx": "react-jsx",
-    "baseUrl": "./",
-    "paths": {
-      "@components": ["src/components"],
-      "@pages": ["src/pages"],
-      "@store": ["src/store"]
-    }
+    "jsx": "react-jsx"
   },
+  "extends": "./paths.json",
   "include": [
     "src"
   ]

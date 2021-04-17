@@ -2,3 +2,9 @@
 @tailwind components;
 @tailwind utilities;
 
+@import url('https://fonts.googleapis.com/css2?family=Mukta&display=swap');
+
+* {
+    margin: 0;
+    font-family: 'Mukta', sans-serif;
+}
