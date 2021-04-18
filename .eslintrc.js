@@ -50,6 +50,7 @@ module.exports = {
       varsIgnorePattern: '^_',
       argsIgnorePattern: '^_'
     }],
-    camelcase: 'off'
+    camelcase: 'off',
+    'react/display-name': 'off'
   }
 };

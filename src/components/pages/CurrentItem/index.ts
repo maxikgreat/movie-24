@@ -1,1 +1,1 @@
-export { default as CurrentItemDetails } from './CurrentItemDetails';
+export { default as CurrentItemDetails } from './CurrentItemDetails';export { default as CurrentItemDetailsHeader } from './CurrentItemDetailsHeader';export { default as CurrentItemDetailsFooter } from './CurrentItemDetailsFooter';
