@@ -10,6 +10,7 @@
     "@testing-library/user-event": "^12.1.10",
     "axios": "^0.21.1",
     "dotenv-webpack": "^7.0.2",
+    "faker": "^5.5.3",
     "lodash": "^4.17.21",
     "moment": "^2.29.1",
     "react": "^17.0.2",
@@ -51,6 +52,8 @@
   },
   "devDependencies": {
     "@tailwindcss/postcss7-compat": "^2.1.0",
+    "@testing-library/react-hooks": "^5.1.1",
+    "@types/faker": "^5.5.2",
     "@types/jest": "^26.0.22",
     "@types/loadable__component": "^5.13.3",
     "@types/lodash": "^4.14.168",
