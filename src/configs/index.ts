@@ -1,1 +1,1 @@
-export { default as sliderConfig } from './slider';
+export { default as sliderConfig } from './slider';export { default as searchConfig } from './search';
