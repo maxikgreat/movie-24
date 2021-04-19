@@ -20,7 +20,8 @@ module.exports = {
       '@store': path.resolve(__dirname, 'src/store/'),
       '@configs': path.resolve(__dirname, 'src/configs/'),
       '@services': path.resolve(__dirname, 'src/services/'),
-      '@helpers': path.resolve(__dirname, 'src/helpers/')
+      '@helpers': path.resolve(__dirname, 'src/helpers/'),
+      '@hooks': path.resolve(__dirname, 'src/hooks')
     }
   }
 };
